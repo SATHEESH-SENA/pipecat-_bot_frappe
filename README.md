@@ -60,7 +60,7 @@ Replace `YOUR_BOT_NGROK_URL` with your ngrok URL for this bot server.
 
 1. **Incoming Call** → Your existing application generates XML
 2. **Record** → Starts recording as per your existing logic  
-3. **Dial** → Tries to call +919677018116 with 30-second timeout
+3. **Dial** → Tries to call + with 30-second timeout
 4. **If No Answer** → Plivo automatically moves to the Stream element
 5. **Fallback Bot** → This bot server handles the call via WebSocket
 
